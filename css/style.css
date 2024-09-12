@@ -12,3 +12,35 @@
     --heading-font: 'Yeseva One', cursive;
     --body-font: 'Poppins', sans-serif;
 }
+
+.navbar {
+    background-color: #E87774;
+    text-align: center;
+}
+
+.logo-pc {
+    display: none;
+}
+.logo-mobile {
+    padding: 3rem 0rem;
+}
+.menu a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-bottom: 3rem;
+}
+
+
+.nadpis-pozadi {
+    background-image: url(../images/banner.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 320px;
+}
