@@ -65,7 +65,7 @@ body {
     padding: 2rem 3rem;
     color: #E87774;
 }
-.prohlidka h2, h3 {
+.prohlidka h2, h3, .inzeraty h2 {
     font-family:  'Yeseva One', cursive;
     font-size: 28px;
     font-weight: 400;
@@ -73,7 +73,7 @@ body {
 .prohlidka h3, p {
     color: #332838;
 }
-.prohlidka {
+.prohlidka, .inzeraty h2 {
     text-align: center;
 }
 .prohlidka h3 {
@@ -84,4 +84,35 @@ body {
     padding-bottom: 3rem;
     width: 280px;
     margin: auto;
+}
+
+.inzeraty h2 {
+    color: #E87774;
+    padding-bottom: 2.5rem;
+}
+
+.box-text1 p, .box-text2 p, .box-text3 p {
+    font-size: 12px;
+    color: #332838;
+    padding: 0.5rem 0rem;
+}
+.box-text1 h4, .box-text2 h4, .box-text3 h4 {
+    color: #332838;
+    font-size: 13px;
+}
+.mail {
+    font-style: italic;
+}
+.box-text1, .box-text2, .box-text3 {
+    background-color: #EAE9F6;
+    margin-bottom: 1rem;
+    padding: 0rem 1rem;
+    border-radius: 5px;
+}
+.boxes {
+    padding: 0rem 3rem;
+}
+.made {
+    text-align: center;
+    padding: 3rem 0rem;
 }
