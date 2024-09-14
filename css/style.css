@@ -13,6 +13,12 @@
     --body-font: 'Poppins', sans-serif;
 }
 
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    width: 360px;
+}
 .navbar {
     background-color: #E87774;
     text-align: center;
@@ -39,8 +45,19 @@
 
 .nadpis-pozadi {
     background-image: url(../images/banner.png);
-    background-position: center center;
-    background-repeat: no-repeat;
     background-size: cover;
-    background-size: 320px;
+    height: 213px;
 }
+.nadpis-pozadi h1 {
+    font-size: 36px;
+    color: #fff;
+    font-family:  'Yeseva One', cursive;
+}
+
+.prohlidka h2 {
+    font-size: 28px;
+    padding: 2rem 3rem;
+    color: #E87774;
+    font-family:  'Yeseva One', cursive;
+}
+
