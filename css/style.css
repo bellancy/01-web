@@ -19,9 +19,23 @@ body {
 .container {
     width: 380px;
 }
+
+@media (min-width: 1440px) {
+    .container {
+        width: 1440px;
+    }
+}
 .navbar {
     background-color: #E87774;
     text-align: center;
+}
+
+@media (min-width: 1440px) {
+    .navbar {
+        background-color: #fff;
+        padding: 1rem 5rem;
+        text-align: start;
+    }
 }
 
 .logo-pc {
@@ -29,6 +43,16 @@ body {
 }
 .logo-mobile {
     padding: 3rem 0rem;
+}
+
+@media (min-width: 1440px) {
+    .logo-pc {
+        display: block;
+        float: inline-start;
+    }
+    .logo-mobile {
+        display: none;
+    }
 }
 .menu a{
     text-decoration: none;
@@ -42,6 +66,17 @@ body {
     padding-bottom: 3rem;
 }
 
+@media (min-width: 1440px) {
+    .menu a {
+        color: #E87774;
+    }
+    .menu {
+        flex-direction: row;
+        justify-content: end;
+        gap: 2rem;
+        padding-bottom: 0;
+    }
+}
 
 .nadpis-pozadi {
     background-image: url(../images/banner.png);
@@ -60,7 +95,14 @@ body {
 .nadpis {
     padding: 4rem 1rem;
 }
-
+@media (min-width: 1440px) {
+    .nadpis-pozadi h1 {
+        font-size: 72px;
+    }
+    .nadpis {
+        padding: 14rem 17rem;
+    }
+}
 .prohlidka h2 {
     padding: 2rem 3rem;
     color: #E87774;
@@ -103,7 +145,7 @@ body {
 .mail {
     font-style: italic;
 }
-.box-text1, .box-text2, .box-text3 {
+.box-text1, .box-text2, .box-text3{
     background-color: #EAE9F6;
     margin-bottom: 1rem;
     padding: 0rem 1rem;
