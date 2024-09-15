@@ -33,7 +33,7 @@ body {
 @media (min-width: 1440px) {
     .navbar {
         background-color: #fff;
-        padding: 1rem 5rem;
+        padding: 1rem 7rem;
         text-align: start;
     }
 }
@@ -118,12 +118,30 @@ body {
 .prohlidka, .inzeraty h2 {
     text-align: center;
 }
+@media (min-width: 1440px) {
+    .prohlidka h2, .inzeraty h2 {
+        text-align: start;
+        padding: 0;
+    }
+    .prohlidka h2 {
+        padding-bottom: 2rem;
+    }
+    .prohlidka-inzeraty {
+        padding: 2rem 7rem;
+        display: flex;
+    }
+    .boxy3 {
+        display: flex;
+        gap: 2rem;
+    }
+    
+}
 .prohlidka h3 {
     padding-top: 0.5rem;
     padding-bottom: 1rem;
 }
 .prohlidka p {
-    padding-bottom: 3rem;
+    padding-bottom: 2.5rem;
     width: 280px;
     margin: auto;
 }
@@ -132,7 +150,12 @@ body {
     color: #E87774;
     padding-bottom: 2.5rem;
 }
-
+@media (min-width: 1440px) {
+    .inzeraty h2 {
+        padding-bottom: 1.9rem;
+        padding-left: 1.5rem;
+    }
+}
 .box-text1 p, .box-text2 p, .box-text3 p {
     font-size: 12px;
     color: #332838;
@@ -153,6 +176,12 @@ body {
 }
 .boxes {
     padding: 0rem 3rem;
+}
+@media (min-width: 1440px) {
+    .boxes {
+        padding: 0;
+        padding-left: 1.5rem;
+    }
 }
 .made {
     text-align: center;
